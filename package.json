@@ -1,0 +1,21 @@
+{
+  "name": "jsoneditor-standalone",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "dependencies": {
+    "jsoneditor": "^5.31.0",
+    "lodash": "4.17.10",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "",
+  "license": "ISC"
+}

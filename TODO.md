@@ -1,0 +1,4 @@
+- Add drag and drop support for JSON files.
+- Add download as JSON
+- Theming
+- LocalStorage/ Config in some file etc.
