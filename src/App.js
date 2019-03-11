@@ -4,23 +4,7 @@ import JSONEditorReact from './JSONEditorReact';
 import './App.css';
 
 const schema = {
-  title: 'Example Schema',
-  type: 'object',
-  properties: {
-    array: {
-      type: 'array',
-      items: {
-        type: 'number'
-      }
-    },
-    boolean: {
-      type: 'boolean'
-    },
-    number: {
-      type: 'number'
-    }
-  },
-  required: ['array', 'string', 'boolean']
+  title: 'Example Schema'
 };
 
 const json = {
@@ -44,31 +28,39 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <h1>JSONEditor React advanced demo</h1>
         <div className="contents">
-          <div className="mode">
+          {/* <div className="mode">
             mode: <select value={this.state.mode} onChange={this.onModeChangeSelect}>
               {
                 modes.map(mode => <option key={mode} value={mode}>{mode}</option>)
               }
             </select>
-          </div>
+          </div> */}
           <JSONEditorReact
               schema={this.state.schema}
               text={this.state.text}
-              mode={this.state.mode}
-              modes={modes}
+              mode={modes[3]}
+              // modes={modes}
               indentation={4}
               onChangeText={this.onChangeText}
               onModeChange={this.onModeChange}
           />
-          <div className="code">
+          <JSONEditorReact
+              schema={this.state.schema}
+              text={this.state.text}
+              mode={modes[0]}
+              // modes={modes}
+              indentation={4}
+              onChangeText={this.onChangeText}
+              onModeChange={this.onModeChange}
+          />
+          {/* <div className="code">
             <pre>
               <code>
                 {this.state.text}
               </code>
             </pre>
-          </div>
+          </div> */}
         </div>
       </div>
     );

@@ -33,7 +33,11 @@ export default class JSONEditorReact extends Component {
     }
 
     if ('text' in nextProps) {
-      this.jsoneditor.updateText(nextProps.text);
+      try {
+        this.jsoneditor.updateText(JSON.stringify(JSON.parse(nextProps.text), null, this.props.indentation));
+      } catch (e) {
+        console.log('ERROR');
+      }
     }
 
     if ('mode' in nextProps) {
