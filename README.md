@@ -1,7 +1,14 @@
 ## Run
 
-To run :
+To try without installing :
 
 ```
-npm start
+> npx jsoneditor-standalone
+```
+
+To install and run :
+
+```
+> npm i -g jsoneditor-standalone
+> jsoneditor
 ```
