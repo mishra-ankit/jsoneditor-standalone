@@ -3,17 +3,26 @@
   "version": "0.0.0",
   "description": "This is a wrapper for jsoneditor package, so that it cab be run offline without any dependencies and privacy concerns.",
   "dependencies": {
+    "express": "^4.16.4",
+    "get-port": "^4.2.0",
     "jsoneditor": "^5.31.0",
     "lodash": "4.17.10",
+    "path": "^0.12.7",
     "react": "16.4.2",
-    "react-dom": "16.4.2",
+    "react-dom": "16.4.2"
+  },
+  "devDependencies": {
     "react-scripts": "1.1.4"
+  },
+  "bin": {
+    "jsoneditor": "bin/script.js"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "run": "serve -s build",
+    "prepublishOnly": "react-scripts build"
   },
   "author": "Ankit Mishra",
   "license": "ISC"
