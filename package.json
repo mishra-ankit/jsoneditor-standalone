@@ -1,8 +1,7 @@
 {
   "name": "jsoneditor-standalone",
-  "version": "1.0.0",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "This is a wrapper for jsoneditor package, so that it cab be run offline without any dependencies and privacy concerns.",
   "dependencies": {
     "jsoneditor": "^5.31.0",
     "lodash": "4.17.10",
@@ -16,6 +15,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "author": "",
+  "author": "Ankit Mishra",
   "license": "ISC"
 }
