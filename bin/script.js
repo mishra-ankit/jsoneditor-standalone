@@ -12,6 +12,6 @@ app.use(express.static(dir));
     const url = 'http://localhost:' + port;
     app.listen(port, function () {
         opn(url);
-        console.log('Editor available on ' + url);
+        console.log('Editor running on -' + url);
     });
 })();
