@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "This is a wrapper for jsoneditor package, so that it cab be run offline without any dependencies and privacy concerns.",
   "dependencies": {
-    "express": "^4.16.4",
-    "get-port": "^4.2.0",
-    "jsoneditor": "^5.31.0",
-    "lodash": "4.17.10",
-    "path": "^0.12.7",
+    "express": "4.16.4",
+    "get-port": "4.2.0",
+    "jsoneditor": "5.31.0",
+    "lodash": "^4.17.11",
+    "opn": "5.4.0",
+    "path": "0.12.7",
     "react": "16.4.2",
     "react-dom": "16.4.2"
   },

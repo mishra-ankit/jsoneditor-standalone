@@ -1,15 +1,17 @@
 #! /usr/bin/env node
-var path = require('path');
-var express = require('express');
+const path = require('path');
+const express = require('express');
 const getPort = require('get-port');
-var app = express();
-var dir = path.join(__dirname, '../build');
+const app = express();
+const dir = path.join(__dirname, '../build');
+const opn = require('opn');
 app.use(express.static(dir));
 
 (async () => {
     const port = await getPort();
-    console.log(__dirname);
+    const url = 'http://localhost:' + port;
     app.listen(port, function () {
-        console.log('Editor available on http://localhost:' + port + '/');
+        opn(url);
+        console.log('Editor available on ' + url);
     });
 })();
