@@ -1,5 +1,3 @@
-## Run
-
 To try without installing :
 
 ```

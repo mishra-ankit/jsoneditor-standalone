@@ -4,6 +4,6 @@
 - LocalStorage/ Config in some file etc.
 
 - Copy URL to clipboard.
-- Launch URL automatically
+x- Launch URL automatically
 
 - Make publisah more seamless, e.g. do git commit and push along with publish or something like that.

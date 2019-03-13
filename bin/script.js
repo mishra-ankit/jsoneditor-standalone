@@ -3,7 +3,7 @@ const path = require('path');
 const express = require('express');
 const getPort = require('get-port');
 const app = express();
-const dir = path.join(__dirname, '../build');
+const dir = path.join(__dirname, '../docs');
 const opn = require('opn');
 app.use(express.static(dir));
 

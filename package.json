@@ -1,7 +1,7 @@
 {
   "name": "jsoneditor-standalone",
-  "version": "0.0.1",
-  "description": "This is a wrapper for jsoneditor package, so that it cab be run offline without any dependencies and privacy concerns.",
+  "version": "0.0.3",
+  "description": "This is a wrapper for jsoneditor package, it can be run offline without any dependencies and privacy concerns.",
   "dependencies": {
     "express": "4.16.4",
     "get-port": "4.2.0",
@@ -20,10 +20,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "run": "serve -s build"
+    "build": "react-scripts build && mv build docs",
+    "test": "react-scripts test --env=jsdom"
   },
   "author": "Ankit Mishra",
-  "license": "ISC"
+  "license": "MIT"
 }
