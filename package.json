@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && mv build docs",
+    "build": "react-scripts build && move build docs",
     "test": "react-scripts test --env=jsdom"
   },
   "author": "Ankit Mishra",
