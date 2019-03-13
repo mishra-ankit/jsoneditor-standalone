@@ -21,9 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && move build docs",
+    "build": "react-scripts build && rmdir /s /q docs && move build docs",
     "test": "react-scripts test --env=jsdom",
-    "prepublishOnly": "react-scripts build && move build docs"
+    "prepublishOnly": "react-scripts build && rmdir /s /q docs && move build docs"
   },
   "author": "Ankit Mishra",
   "license": "MIT"
