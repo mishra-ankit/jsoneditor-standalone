@@ -7,7 +7,7 @@
 
 The goal is to make available a simple but powerful stand-alone json editor to all. Useful to edit/format private and public data.
 
-If you're not paranoid about, try it here - [JSON Editor](https://mishra-ankit.github.io/jsoneditor-standalone/index.html)
+If you're not paranoid about online tools, try it here - [JSON Editor](https://mishra-ankit.github.io/jsoneditor-standalone/index.html)
 
 ### If you want to run it offline, without any outside dependencies, use the stand-alone editor and run it locally on your system.
 
