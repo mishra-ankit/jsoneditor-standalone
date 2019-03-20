@@ -1,6 +1,6 @@
 {
   "name": "jsoneditor-standalone",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "homepage": ".",
   "description": "This is a wrapper for jsoneditor package, it can be run offline without any dependencies and privacy concerns.",
   "dependencies": {
@@ -23,6 +23,7 @@
     "type": "git",
     "url": "https://github.com/mishra-ankit/jsoneditor-standalone.git"
   },
+  "keywords": ["json", "editor", "formatter", "jsoneditor", "offline"],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && rmdir /s /q docs && move build docs",
