@@ -29,13 +29,6 @@ class App extends Component {
     return (
       <div className="app">
         <div className="contents">
-          {/* <div className="mode">
-            mode: <select value={this.state.mode} onChange={this.onModeChangeSelect}>
-              {
-                modes.map(mode => <option key={mode} value={mode}>{mode}</option>)
-              }
-            </select>
-          </div> */}
           <JSONEditorReact
               schema={this.state.schema}
               text={this.state.text}
@@ -54,13 +47,6 @@ class App extends Component {
               onChangeText={this.onChangeText}
               onModeChange={this.onModeChange}
           />
-          {/* <div className="code">
-            <pre>
-              <code>
-                {this.state.text}
-              </code>
-            </pre>
-          </div> */}
         </div>
       </div>
     );
