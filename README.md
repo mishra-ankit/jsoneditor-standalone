@@ -1,7 +1,7 @@
 
 [![Version](https://img.shields.io/npm/v/jsoneditor-standalone.svg)](https://www.npmjs.com/package/jsoneditor-standalone)
 [![Downloads](https://img.shields.io/npm/dm/jsoneditor-standalone.svg)](https://www.npmjs.com/package/jsoneditor-standalone)
-![Maintenance](https://img.shields.io/maintenance/yes/2019.svg)
+![Maintenance](https://img.shields.io/maintenance/yes/2020.svg)
 ![NPM](https://img.shields.io/npm/l/jsoneditor-standalone)
 
 # Yet another JSON editor and formatter
