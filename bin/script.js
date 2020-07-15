@@ -4,14 +4,15 @@ const express = require('express');
 const getPort = require('get-port');
 const app = express();
 const dir = path.join(__dirname, '../docs');
-const opn = require('opn');
-app.use(express.static(dir));
+const open = require('open');
+const editorPath = '/jsoneditor-standalone';
+app.use(editorPath,express.static(dir));
 
 (async () => {
     const port = await getPort();
-    const url = 'http://localhost:' + port;
+    const url = `http://localhost:${port}${editorPath}`;
     app.listen(port, function () {
-        opn(url);
-        console.log('Editor running on -' + url);
+        open(url);
+        console.log('Editor running on - ' + url);
     });
 })();
