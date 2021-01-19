@@ -1,6 +1,6 @@
 {
   "name": "jsoneditor-standalone",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://mishra-ankit.github.io/jsoneditor-standalone",
   "description": "This is a wrapper for jsoneditor package, it can be run offline without any dependencies and privacy concerns.",
   "dependencies": {
