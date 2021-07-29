@@ -1,6 +1,6 @@
 
 [![Version](https://img.shields.io/npm/v/jsoneditor-standalone.svg)](https://www.npmjs.com/package/jsoneditor-standalone)
-[![Downloads](https://img.shields.io/npm/dm/jsoneditor-standalone.svg)](https://www.npmjs.com/package/jsoneditor-standalone)
+[![Downloads](https://img.shields.io/npm/dt/jsoneditor-standalone.svg?maxAge=3600)](https://www.npmjs.com/package/jsoneditor-standalone)
 ![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)
 ![NPM](https://img.shields.io/npm/l/jsoneditor-standalone)
 
