@@ -4,7 +4,7 @@
   "homepage": "https://mishra-ankit.github.io/jsoneditor-standalone",
   "description": "This is a wrapper for jsoneditor package, it can be run offline without any dependencies and privacy concerns.",
   "dependencies": {
-    "express": "4.17.1",
+    "express": "4.17.3",
     "get-port": "5.1.0",
     "open": "6.0.0",
     "path": "0.12.7"
